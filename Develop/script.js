@@ -5,13 +5,13 @@ var bodyEl = document.querySelector("body")
 var currentDayEl = document.querySelector("#current-day")
 
 var timeBoxEL = document.querySelectorAll(".time-box")
-console.log(timeBoxEL[9].textContent)
+// console.log(timeBoxEL[9].textContent)
 var timeValue = parseInt(timeBoxEL[9].textContent)
-console.log(timeValue)
+// console.log(timeValue)
 var formEl = document.querySelectorAll(".form")
-console.log(formEl[9])
+// console.log(formEl[9])
 var formBoxEL = document.querySelectorAll(".form-box")
-console.log(formBoxEL[9])
+// console.log(formBoxEL[9])
 var saveEl = document.querySelectorAll(".save")
 
 // grabbing all save buttons
@@ -133,28 +133,3 @@ onLoad()
 setInterval(displayTime, 1000)
 
 changeBackground()
-
-// TODO: saving the input in the form in local storage for all save buttons
-// bodyEl.addEventListener("click", function (event) {
-//     var mouseClick = event.target
-//     console.log(mouseClick.parentNode)
-//     var mouseClick2 = mouseClick.parentNode
-//     console.log(mouseClick2.parentNode)
-    // for (let i = 0; i < 10; i++) {
-    // if (formEl[i].value === "") {
-    //     alert("There must be something to do!")
-    // } else if () {
-    //     localStorage.setItem("form", JSON.stringify(formEl[i].value))
-    //     console.log(JSON.stringify(formEl[i].value))
-    // }}
-// })
-
-
-// TODO: setting ALL form values to localStorage Items
-// function onLoad () {
-//     for (let i = 0; i < 10; i++) {
-//         formEl[i].value = JSON.parse(localStorage.getItem
-//         // TODO: need to make array of form submits
-//         ("form") || "[]")
-//     }
-// }
