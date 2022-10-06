@@ -73,7 +73,7 @@ function changeBackground() {
                 formBoxEL[i].style.backgroundColor = 'red'
             }
         } else if (current >= 1 && current <= 6) {
-            console.log("between 6 and 1")
+            console.log("between 1 and 6")
             var current = current + 12
             console.log(current)
             console.log(nowMHour)
@@ -83,10 +83,10 @@ function changeBackground() {
             } else if (current > nowMHour) {
                 formEl[i].style.backgroundColor = 'green'
                 formBoxEL[i].style.backgroundColor = 'green'
-            }
             } else {
             formEl[i].style.backgroundColor = 'red'
             formBoxEL[i].style.backgroundColor = 'red'
+            }
 }}}
 
 //display the time at the top

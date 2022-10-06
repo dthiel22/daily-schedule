@@ -1,99 +1,66 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Schedule 
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This website was built for the purpose of keeping track of a daily work schedule, allowing me to become more organized and have a daily structure. The top of the page refreshes with the actual time in the day. The form zones change color based on the hour. If the current time exceeds the block time, then the areas are gray. If the current time equals the block time the zone is oragne. If the current time is less than the block time, then the zone is green
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
-
-## User Story
-
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
-
-## Acceptance Criteria
-
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+## Looking into the Code
 
 
-## Grading Requirements
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## Table of Contents (Optional)
 
-This Challenge is graded based on the following criteria: 
+If your README is long, add a table of contents to make it easy for users to find what they need.
 
-### Technical Acceptance Criteria: 40%
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Installation
 
-  * Uses a date utility library to work with date and time
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-### Deployment: 32%
+## Usage
 
-* Application deployed at live URL
+Provide instructions and examples for use. Include screenshots as needed.
 
-* Application loads with no errors
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-* Application GitHub URL submitted
 
-* GitHub repo contains application code
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
 
-### Application Quality: 15%
+## Credits
 
-* Application user experience is intuitive and easy to navigate
+List your collaborators, if any, with links to their GitHub profiles.
 
-* Application user interface style is clean and polished
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-* Application resembles the mock-up functionality provided in the Challenge instructions
+If you followed tutorials, include links to those here as well.
 
-### Repository Quality: 13%
+## License
 
-* Repository has a unique name
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
-* Repository follows best practices for file structure and naming conventions
+--
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+## Badges
 
-* Repository contains multiple descriptive commit messages
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-* Repository contains quality README file with description, screenshot, and link to deployed application
+Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+## Features
 
-## Review
+If your project has a lot of features, list them here.
 
-You are required to submit the following for review:
+## How to Contribute
 
-* The URL of the deployed application
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
+## Tests
 
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+
